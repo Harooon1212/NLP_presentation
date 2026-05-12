@@ -632,7 +632,7 @@ async function build() {
     });
   }
 
-  await pres.writeFile({ fileName: "/home/claude/DM3_Moeez_002_Revised.pptx" });
+  await pres.writeFile({ fileName: "DM3_Moeez_002_Revised.pptx" });
   console.log("Done ✓");
 }
 
